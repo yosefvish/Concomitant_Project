@@ -1,0 +1,16 @@
+.quick-link {
+
+    a {
+        /* Style for "Link Text" */
+        color: $footerTextColor;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+    }
+
+    span {
+        display: block;
+        border-bottom: 1px solid #484848;
+        margin-top: 10px;
+    }
+}

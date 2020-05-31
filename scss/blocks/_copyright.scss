@@ -1,0 +1,23 @@
+.b-copyright {
+    background-color: #2e2e2e;
+
+    &__rigth {
+        text-align: right;
+    }
+
+    &__left,
+    &__rigth {
+        /* Style for "Copyright" */
+        color: #737373;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.4px;
+        margin: 25px 0 22px 0;
+
+        @media (max-width: 768px) {
+
+            text-align: center;
+            margin: 12px 0 10px 0;
+        }
+    }
+}

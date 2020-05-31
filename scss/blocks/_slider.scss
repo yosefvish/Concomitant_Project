@@ -1,0 +1,42 @@
+.b-slider {
+    background-color: $sliderBgColor;
+    padding: 30px !important;
+
+    &__img-container {
+        border: 1px solid #e6e6e6;
+    }
+
+    &__img {
+        border: 9px solid $bodyBgColor;
+        width: 100%;
+    }
+}
+
+.b-slider-nav {
+    margin-top: 20px;
+
+    img {
+        padding-top: 4px;
+    }
+
+    &__item {
+        background-color: #333;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+
+    &__item-active {
+        //width: 10px;
+        //height: 10px;
+        background-color: #f2f2f2;
+        border: 2px solid #333;
+    }
+
+    &__prev,
+    &__next {
+        width: 20px;
+        height: 20px;
+    }
+}

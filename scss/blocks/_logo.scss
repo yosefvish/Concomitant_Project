@@ -1,0 +1,42 @@
+.b-logo-row {
+    background-color: $bodyBgColor;
+}
+
+.b-logo {
+    /* Style for "CONCOMITAN" */
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "ONCOMITANT" */
+    line-height: 36px;
+
+    &__item {
+        /* Text style for "C" */
+        font-size: 46px;
+        line-height: 46px;
+    }
+
+    a {
+        color: #333;
+    }
+}
+
+.b-logo-margin {
+    margin-top: 36px;
+    margin-bottom: 15px;
+
+    @media (max-width: 768px) {
+        margin-top: 56px;
+    }
+
+}
+
+.b-logo-text {
+    /* Style for "Free PSD W" */
+    color: $footerTextColor;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-bottom: 36px;
+}

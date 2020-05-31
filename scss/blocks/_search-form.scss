@@ -1,0 +1,37 @@
+.b-search-form {
+    float: right;
+    margin: 20px 0;
+
+    input[type="text"],
+    input[type="submit"] {
+        height: 30px;
+        font-size: 12px;
+        line-height: 14.4px;
+        border: 1px solid #ddd;
+    }
+
+    input[type="text"] {
+        width: 216px;
+        color: #7f7f7f;
+        font-weight: 400;
+        border-right: none;
+        padding-left: 9px;
+        float: left;
+    }
+
+    input[type="submit"] {
+        width: 65px;
+        color: $headerBgColor;
+        background-color: $bodyBgColor;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    input[type="submit"]:hover {
+        color: $bodyBgColor;
+        background-color: $headerBgColor;
+        border: 1px solid $bodyBgColor;
+        cursor: pointer;
+    }
+}

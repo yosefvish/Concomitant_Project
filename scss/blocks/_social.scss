@@ -1,0 +1,26 @@
+.b-social-icon {
+    /* Style for "BG Colour" */
+    width: 251px;
+    height: 49px;
+    background-color: $headerBgColor;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: space-around;
+    float: right;
+}
+
+.b-social-link {
+    /* Style for "Ellipse" */
+    width: 32px;
+    height: 32px;
+    background-color: $socialBgColor;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: $socialBgColorActivate;
+    }
+}
+
+.b-social-link-active {
+    background-color: $socialBgColorActivate;
+}
