@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Georgia";
+    src: url(../fonts/georgia.ttf);
+}
+
+$bodyFont: "Georgia",
+sans-serif;
+$headerBgColor: #81b300;
+$socialBgColor: #1f1f1f;
+$socialBgColorActivate: #00acee;
+$bodyBgColor: #fff;
+$sliderBgColor: #f2f2f2;
+$footerBgColor: #3b3b3b;
+$footerTextColor: #999;
+
+@mixin central-content-mixin {
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.out-line {
+    outline: 2px solid green;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

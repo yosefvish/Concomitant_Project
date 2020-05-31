@@ -1,0 +1,62 @@
+@import "../packages/bootstrap-4.5.0/scss/bootstrap";
+@import "variables";
+
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/social";
+@import "blocks/nav-signup";
+@import "blocks/main-menu";
+@import "blocks/search-form";
+@import "blocks/slider";
+@import "blocks/services";
+@import "blocks/latest-work";
+@import "blocks/footer";
+@import "blocks/quick-link";
+@import "blocks/footer-form";
+@import "blocks/blog";
+@import "blocks/copyright";
+
+
+body {
+    font-family: $bodyFont;
+}
+
+a {
+    color: $headerBgColor;
+
+    &:hover {
+        text-decoration: none;
+        color: $headerBgColor;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-lg {
+    width: fit-content;
+    padding: 30px 20px;
+    background-color: #1f1f1f;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.navbar {
+    padding: 0;
+
+    @media (max-width: 992px) {
+        padding-top: 15px;
+    }
+}
